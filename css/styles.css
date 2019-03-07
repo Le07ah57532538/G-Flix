@@ -1,0 +1,144 @@
+
+.container {
+text-align: center;
+background-color: #0F0909;
+margin: 0;
+font-family: 'Bangers', cursive;
+}
+
+.collapse-navbar-collapse{
+background-color: #0F0909;
+}
+
+.navbar-brand{
+background-color: #0F0909;
+margin: 0;
+text-shadow: 0 -1px 2px #fff,
+0 -3px 6px rgba(234, 236, 238, 1),
+0 -6px 12px rgba(171, 178, 185, 1),
+0 -10px 20px rgba(86, 101, 115, 1),
+0 -15px 30px rgba(52, 152, 219, 1),
+0 -21px 42px rgba(40, 116, 166, 1);
+
+animation: fire 1s ease infinite,
+colorspin 10s linear infinite;
+}
+
+@keyframes fire {
+  2% {
+          text-shadow: 0 -4px 8px #fff,
+
+          0 -12px 24px rgba(234, 236, 238, 1),
+          0 -24px 48px rgba(171, 178, 185, 1),
+          0 -40px 80px rgba(86, 101, 115, 1),
+          0 -60px 120px rgba(52, 152, 219, 1),
+          0 -84px 168px rgba(40, 116, 166, 1);
+
+}
+}
+
+@@keyframes colorspin {
+
+   to {filter:hue-rotate(360deg);}
+
+}
+
+
+
+
+
+.action{
+color: #0F0909;
+}
+
+nav{
+  color: #0F0909;
+  font-family: 'Bangers', cursive;
+}
+
+.wri{
+color: #5DADE2;
+}
+
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+span{
+font : 700 4em/1 "oswald",sans-serif;
+letter-spacing: 0;
+padding: .25em .325em;
+display: block;
+margin: 0 auto;
+text-shadow: 0 0 80px rgba(255, 225, 255, 0.5);
+background:url('../h11.jpg') repeat-y;
+font-family: 'Bangers', cursive;
+
+ -webkit-background-clip:text;
+ -webkit-text-fill-color:transparent;
+ -webkit-animation:aitif 0.8s linear infinite;
+ -webkit-backface-visibility:hidden;
+}
+ @-webkit-keyframes aitif {
+   0%{
+        background-position: 0% 50%;
+}
+   100%{
+        background-position: 100% 50%;
+
+}
+}
+.navbar{
+background-color: #0F0909;
+}
+
+#carouselExampleSlidesOnly{
+margin-bottom: 50px;
+}
+h6{
+  color: #0F0909;
+  font-family: 'Bangers', cursive;
+
+}
+
+.column {
+ float: left;
+ width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+
+
+
+
+.card{
+background-color: #CFF6FE;
+}
+
+p {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px , 0 0 5px ;
+}
+
+@media screen and width (min-width:480px) {
+body {
+  background-color: #1A191A;
+}
+}
+@media screen and (min-width: 490px) and (max-width: 768px) {
+    body {
+        background-color: #1A191A;
+        color: #1A191A;
+    }
+g
